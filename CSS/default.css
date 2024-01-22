@@ -1,0 +1,32 @@
+/* @font-face {
+	font-family : '나눔스퀘어';
+	src : url(../font/NanumSquareR.woff);
+}
+@font-face {
+	font-family : '나눔스퀘어';
+	font-weight : 800;
+	src : url(../font/NanumSquareB.woff);
+} */
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+div, input, textarea {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+	font-family: '나눔스퀘어'
+}
+
+main {
+  display: block;
+}
+
+p,h1,h2,h3,h4,span,table,button,lable,input,textarea {
+	transform : rotate(0.04deg); 
+}

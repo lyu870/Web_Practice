@@ -1,0 +1,101 @@
+/* 부트스트랩 설치 후 스크롤 이상현상 방지**/
+:root { scroll-behavior : auto }
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+  
+  .alertBox {
+    width: 700px;
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    display: none;
+  }
+
+  .form-box {
+    padding: 20px;
+  }
+
+  .text-id {
+    margin: 10px;
+    display: none;
+  }
+
+  .text-pwd {
+    margin: 10px;
+    display: none;
+  }
+
+  .list-group {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .main-bg {
+    padding: 100px 30px;
+    background: #eeeeee;
+  }
+
+  .black-bg {
+    width : 100%;
+    height : 100%;
+    position : fixed;
+    background : rgba(0,0,0,0.5);
+    z-index : 5;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 100px;
+  } 
+
+  .show-modal {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .slide-container {
+    width: 300vw;
+    transition: all 0.6s;
+  }
+  .slide-box {
+    width: 100vw;
+    float: left;
+  }
+  .slide-box img {
+    width: 100%;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }

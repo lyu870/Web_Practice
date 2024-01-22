@@ -1,0 +1,12 @@
+button {
+
+    border-color: #333333;
+
+    font-weight: bold;
+  
+    background-color: #fff;
+    border-radius: 100px;
+    z-index: -1;
+    padding: 15px 35px;
+    display: inline-block;
+}
